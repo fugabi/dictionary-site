@@ -1,0 +1,15 @@
+@import 'base';
+
+h2 {
+  margin: $vertical-spacing $small-indent;
+}
+
+ul {
+  margin: $vertical-spacing $large-indent;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin: 3px 0;
+}

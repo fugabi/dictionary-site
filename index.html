@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- @include _head -->  
+<!-- @stylesheet search -->
+</head>
+
+<body>
+
+<!-- @include _header -->
+
+<!-- @javascript search-form word-list index-request search -->
+
+<form id='search-form'>
+  <input id='search-box' type='text' placeholder='Search...'>
+  <img id='spinner' src='<!-- @path spinner.gif -->'>
+  <p id='error-message'>
+    There was an error retrieving the word list from the server.
+    Please try again.
+  </p>
+</form>
+
+<ul id='word-list'></ul>
+
+<ul class='notes'>
+  <li>To find a word, type it in the search box above.</li>
+  <li>You may wish to browse <a href='<!-- @path meta.html -->'>all the words</a>.</li>
+  <li>
+    You can use this dictionary with the native Dictionary app on your Mac: 
+    I've prepared an <a href='Webster%27s%20Unabridged%20Dictionary.pkg'>installer 
+    package</a> for you.
+  </li>
+</ul>
+
+</body>
+</html>

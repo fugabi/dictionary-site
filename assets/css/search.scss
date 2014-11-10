@@ -1,0 +1,27 @@
+@import 'base';
+
+#search-form {
+  margin: $vertical-spacing $large-indent;
+  display: none;
+}
+
+#spinner {
+  /* magic numbers to line up the image with the input box */
+  margin: 4px 0 -3px 4px;
+}
+
+#error-message {
+  margin: $vertical-spacing 0;
+}
+
+#word-list {
+  margin: $vertical-spacing $large-indent;
+  padding: 0;
+  list-style-type: none;
+}
+
+.notes {
+  margin: $vertical-spacing $large-indent;
+  padding: 0;
+  list-style-type: none;
+}

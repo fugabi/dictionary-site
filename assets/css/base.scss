@@ -1,0 +1,36 @@
+@import 'normalize';
+
+$font-stack: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+
+$text-color: #282828;
+$background-color: #fff;
+$knockout-color: #eee;
+$dim-color: #666;
+
+$small-indent: 25px;
+$large-indent: 50px;
+$vertical-spacing: $small-indent;
+
+html {
+  height: 100%;
+}
+
+body {
+  background: $background-color;
+  font-family: $font-stack;
+  color: $text-color;
+}
+
+header {
+  background: $text-color;
+  color: $knockout-color;
+  padding: $vertical-spacing $small-indent;
+}
+
+nav {
+  margin: $small-indent;
+}
+
+a {
+  color: $text-color;
+}

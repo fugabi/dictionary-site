@@ -1,0 +1,35 @@
+@import 'base';
+
+.entry {
+  margin: 20px 50px;
+}
+
+.subhead {
+  font-size: 90%;
+}
+
+.pronunciation:before, .pronunciation:after {
+  content: "|";
+}
+
+.pronunciation {
+  color: $dim-color;
+}
+
+.part-of-speech {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-weight: bold;
+}
+
+.etymology {
+  margin-left: 0.2em;
+  margin-right: 0.5em;
+  font-style: italic;
+  color: $dim-color;
+}
+
+.specialty {
+  margin-left: 0.5em;
+  color: $dim-color;
+}
