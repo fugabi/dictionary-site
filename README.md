@@ -13,6 +13,8 @@ Amazon S3 or similar.  And it feels pretty snappy.
 The README for [convert-websters][convertWebsters] gives a description of my
 inspiration for this project.
 
+A live version of the site is at [http://dictionary.parksdigital.com/][liveSite].
+
 ## Building
 
 I use [Hammer for Mac][hammerForMac] to build the site, but it probably wouldn't
@@ -20,3 +22,4 @@ be too hard to adapt it to any kind of templating tool.
 
 [convertWebsters]: https://github.com/aparks517/convert-websters
 [hammerForMac]: http://hammerformac.com
+[liveSite]: http://dictionary.parksdigital.com
